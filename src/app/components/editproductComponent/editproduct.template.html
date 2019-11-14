@@ -1,0 +1,32 @@
+<div fxLayout="row wrap" style="background-color:#D7D4E0;height:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <mat-card style="width:500px;margin-top:-40px;">
+      <mat-card-content>
+        <h2 style="text-align:center;margin-top:10px;">
+          EDIT DETAILS</h2>
+        <form>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-icon class="icon">info</mat-icon>
+          </div>
+          <div>
+            <br></div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-form-field style="width:100%;" [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+              <input matInput placeholder="Product Name" required>
+
+            </mat-form-field>
+          </div>
+          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-form-field style="width:100%;" [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+              <input matInput placeholder="Product Price" required>
+
+            </mat-form-field>
+          </div>
+          <div>
+            <br></div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><button mat-raised-button style="background-color:#6F3FAD;color:white;width:100px;margin-bottom:10px;">Update</button></div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

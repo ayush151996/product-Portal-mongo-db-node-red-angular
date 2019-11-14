@@ -1,0 +1,16 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+.icon{
+    border:4px solid #6F3FAD;
+    background-color:#6F3FAD;
+    color:white;
+    border-radius:4px;  
+}
+.deleteicon{
+    border:4px solid orangered;
+    background-color:orangered;
+    color:white;
+    border-radius:4px;
+}
